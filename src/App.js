@@ -21,7 +21,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path='/' element={<BasePage/>}>
+      <Route exact path='/' element={<Login/>}/>
+        <Route path='/' element={<BasePage/>}>
           <Route path='dashboard' element={<DashboardPage/>}/>
           <Route path='charts' element={<ChartsPage/>}/>
           <Route path='cards' element={<CardsPage/>}/>

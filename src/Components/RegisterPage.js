@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function RegisterPage() {
   return (
-    <div className="body bg-secondary d-flex align-items-center" >
+    <div className="body d-flex align-items-center" >
       <div className="container">
         <div className="card o-hidden border-0 shadow-lg my-5">
           <div className="card-body p-0">

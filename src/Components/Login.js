@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function Login() {
   return (
-    <div className="body bg-danger d-flex align-items-center" style={{height:'100vh'}}>
+    <div className="body d-flex align-items-center" style={{height:'90vh'}}>
     <div className="container">
       {/* <!-- Outer Row --> */}
       <div className="row justify-content-center">
@@ -53,7 +53,7 @@ export default function Login() {
                         <br/>
                       </div>
                       <NavLink
-                      to='/'
+                      to='/dashboard'
                         className="btn btn-primary btn-user btn-block w-100"
                         
                       >
@@ -61,7 +61,7 @@ export default function Login() {
                       </NavLink>
                       <hr />
                       <NavLink
-                      to='/'
+                      to='/dashboard'
                         className="btn btn-google w-100 rounded-pill active"
                         
                       >
@@ -71,7 +71,7 @@ export default function Login() {
                       <br/>
                       <br/>
                       <NavLink
-                      to='/'
+                      to='/dashboard'
                         className="btn btn-facebook w-100 rounded-pill active"
                       >
                         {/* <i className="fab fa-facebook-f fa-fw"></i>  */}

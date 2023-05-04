@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function ForgetPasswordPage() {
   return (
-    <div className="body bg-secondary d-flex align-items-center " style={{height:'100vh'}}>
+    <div className="body d-flex align-items-center " style={{height:'100vh'}}>
         <div className="container">
       <div className="row justify-content-center">
         <div className="col-xl-10 col-lg-12 col-md-9">
